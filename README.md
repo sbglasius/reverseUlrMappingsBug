@@ -15,7 +15,9 @@ class UrlMappings {
   }
 }
 ```
-and a `<g:link controller: 'home', action: 'index', params: [caseId: null]/>` Grails matches the later url mapping and throws
+and a `<g:link controller: 'home', action: 'index', params: [caseId: null]/>` 
+
+Grails matches the later url mapping and throws
 ```
 Condition failed with Exception:
 
