@@ -4,6 +4,8 @@ Shows the behavior of reverse urlMappings
 *UrlMappings* question: When having an `UrlMapping` like this (simplified):
 ```
 class UrlMappings {
+  static String CASE_ID = /^\d{2}-\d{2}$/
+
   static mappings = {
         "/$controller/$action?/$id?(.$format)?"() 
         "/$caseId/$controller/$action?/$id?(.$format)?" {
